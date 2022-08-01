@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          cmd: install
+#           cmd: install
       - run: npm run build
         
 #       - uses: borales/actions-yarn@v3.0.0
